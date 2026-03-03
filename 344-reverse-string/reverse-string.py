@@ -4,8 +4,7 @@ class Solution:
         right=len(s)-1
         while left<=right:
             s[left],s[right]=s[right],s[left]
-            left=left+1
-            right=right-1
+            left,right=left+1,right-1
         """
         Do not return anything, modify s in-place instead.
         """
